@@ -1,0 +1,15 @@
+[DEBUG] - [12-08-2025 18:11:12] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\compu market\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [12-08-2025 18:11:14] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\compu market\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[DEBUG] - [12-08-2025 18:11:20] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [12-08-2025 18:11:20] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[DEBUG] - [12-08-2025 18:11:22] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-checkout-information']['first-name']
+[DEBUG] - [12-08-2025 18:11:22] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-checkout-information']['last-name']
+[DEBUG] - [12-08-2025 18:11:22] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-checkout-information']['zip-code']
+[DEBUG] - [12-08-2025 18:11:28] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [12-08-2025 18:11:28] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[DEBUG] - [12-08-2025 18:11:35] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [12-08-2025 18:11:35] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[DEBUG] - [12-08-2025 18:11:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [12-08-2025 18:11:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']

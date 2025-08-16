@@ -1,0 +1,21 @@
+[DEBUG] - [12-08-2025 18:40:07] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\compu market\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [12-08-2025 18:40:08] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\compu market\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[DEBUG] - [12-08-2025 18:40:10] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [12-08-2025 18:40:10] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[DEBUG] - [12-08-2025 18:40:11] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-checkout-information']['first-name']
+[DEBUG] - [12-08-2025 18:40:11] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-checkout-information']['last-name']
+[DEBUG] - [12-08-2025 18:40:11] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-checkout-information']['zip-code']
+[DEBUG] - [12-08-2025 18:40:13] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [12-08-2025 18:40:13] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[DEBUG] - [12-08-2025 18:40:16] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [12-08-2025 18:40:16] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[DEBUG] - [12-08-2025 18:40:17] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [12-08-2025 18:40:17] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[DEBUG] - [12-08-2025 18:40:19] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [12-08-2025 18:40:19] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[DEBUG] - [12-08-2025 18:40:26] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [12-08-2025 18:40:26] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[ERROR] - [12-08-2025 18:40:30] [main] [automation.Tests.endToEnd.E2ETests] - ❌ Test FAILED: entToEndScenario_5
+[ERROR] - [12-08-2025 18:40:30] [main] [automation.Tests.endToEnd.E2ETests] - Reason: Remove button is still displayed expected [false] but found [true]

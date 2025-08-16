@@ -1,0 +1,8 @@
+[DEBUG] - [12-08-2025 21:00:09] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\compu market\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [12-08-2025 21:00:10] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\compu market\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[DEBUG] - [12-08-2025 21:00:12] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [12-08-2025 21:00:12] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[ERROR] - [12-08-2025 21:00:13] [main] [automation.Tests.endToEnd.E2ETests] - Test FAILED: postiveEndToEndScenario_6
+[ERROR] - [12-08-2025 21:00:13] [main] [automation.Tests.endToEnd.E2ETests] - Reason: Should stay in cart page expected [https://www.saucedemo.com/cart.html] but found [https://www.saucedemo.com/checkout-step-one.html]

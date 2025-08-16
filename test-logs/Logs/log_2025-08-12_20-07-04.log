@@ -1,0 +1,33 @@
+[DEBUG] - [12-08-2025 20:07:04] [main] [org.testng.TestNG] - suiteXmlPath: "G:\ItI\java projects\SauceDemo\src\test\resources\TestSuites\EndToEndSuite.xml"
+[INFO] - [12-08-2025 20:07:05] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  G:\ItI\java projects\SauceDemo\src\test\resources\TestSuites\EndToEndSuite.xml
+
+[DEBUG] - [12-08-2025 20:07:07] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [12-08-2025 20:07:07] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[DEBUG] - [12-08-2025 20:07:08] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-checkout-information']['first-name']
+[DEBUG] - [12-08-2025 20:07:08] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-checkout-information']['last-name']
+[DEBUG] - [12-08-2025 20:07:08] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-checkout-information']['zip-code']
+[DEBUG] - [12-08-2025 20:07:10] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [12-08-2025 20:07:10] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[DEBUG] - [12-08-2025 20:07:14] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [12-08-2025 20:07:14] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[DEBUG] - [12-08-2025 20:07:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [12-08-2025 20:07:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[DEBUG] - [12-08-2025 20:07:17] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [12-08-2025 20:07:17] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[DEBUG] - [12-08-2025 20:07:23] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [12-08-2025 20:07:23] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[ERROR] - [12-08-2025 20:07:27] [main] [automation.Tests.endToEnd.E2ETests] - Test FAILED: postiveEntToEndScenario_5
+[ERROR] - [12-08-2025 20:07:27] [main] [automation.Tests.endToEnd.E2ETests] - Reason: Remove button is still displayed after click on reset app state button expected [false] but found [true]
+[DEBUG] - [12-08-2025 20:07:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-username']['username']
+[DEBUG] - [12-08-2025 20:07:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-username']['password']
+[DEBUG] - [12-08-2025 20:07:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-username']['error-message']
+[DEBUG] - [12-08-2025 20:07:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-password']['username']
+[DEBUG] - [12-08-2025 20:07:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-password']['password']
+[DEBUG] - [12-08-2025 20:07:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-password']['error-message']
+[DEBUG] - [12-08-2025 20:07:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-username']['username']
+[DEBUG] - [12-08-2025 20:07:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-username']['password']
+[DEBUG] - [12-08-2025 20:07:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-username']['error-message']
+[DEBUG] - [12-08-2025 20:07:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-password']['username']
+[DEBUG] - [12-08-2025 20:07:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-password']['password']
+[DEBUG] - [12-08-2025 20:07:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-password']['error-message']

@@ -1,0 +1,49 @@
+[DEBUG] - [12-08-2025 21:33:31] [main] [org.testng.TestNG] - suiteXmlPath: "G:\ItI\java projects\SauceDemo\src\test\resources\TestSuites\EndToEndSuite.xml"
+[INFO] - [12-08-2025 21:33:32] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  G:\ItI\java projects\SauceDemo\src\test\resources\TestSuites\EndToEndSuite.xml
+
+[DEBUG] - [12-08-2025 21:33:34] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [12-08-2025 21:33:34] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[DEBUG] - [12-08-2025 21:33:35] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-checkout-information']['first-name']
+[DEBUG] - [12-08-2025 21:33:35] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-checkout-information']['last-name']
+[DEBUG] - [12-08-2025 21:33:35] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-checkout-information']['zip-code']
+[DEBUG] - [12-08-2025 21:33:37] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [12-08-2025 21:33:37] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[DEBUG] - [12-08-2025 21:33:40] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [12-08-2025 21:33:40] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[DEBUG] - [12-08-2025 21:33:41] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [12-08-2025 21:33:41] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[DEBUG] - [12-08-2025 21:33:44] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [12-08-2025 21:33:44] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[DEBUG] - [12-08-2025 21:33:50] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [12-08-2025 21:33:50] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[ERROR] - [12-08-2025 21:33:55] [main] [automation.Tests.endToEnd.E2ETests] - Test FAILED: postiveEndToEndScenario_5
+[ERROR] - [12-08-2025 21:33:55] [main] [automation.Tests.endToEnd.E2ETests] - Reason: Remove button is still displayed after click on reset app state button expected [false] but found [true]
+[ERROR] - [12-08-2025 21:33:55] [main] [utils.ScreenshotsUtils] - Failed to take screenshot: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\COMPUM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65033}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65033/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[DEBUG] - [12-08-2025 21:33:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [12-08-2025 21:33:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[ERROR] - [12-08-2025 21:33:57] [main] [automation.Tests.endToEnd.E2ETests] - Test FAILED: postiveEndToEndScenario_6
+[ERROR] - [12-08-2025 21:33:57] [main] [automation.Tests.endToEnd.E2ETests] - Reason: Cart empty cannot navigate to checkout page expected [https://www.saucedemo.com/cart.html] but found [https://www.saucedemo.com/checkout-step-one.html]
+[ERROR] - [12-08-2025 21:33:57] [main] [utils.ScreenshotsUtils] - Failed to take screenshot: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\COMPUM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65060}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65060/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[DEBUG] - [12-08-2025 21:34:00] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-username']['username']
+[DEBUG] - [12-08-2025 21:34:00] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-username']['password']
+[DEBUG] - [12-08-2025 21:34:00] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-username']['error-message']
+[DEBUG] - [12-08-2025 21:34:00] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-password']['username']
+[DEBUG] - [12-08-2025 21:34:00] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-password']['password']
+[DEBUG] - [12-08-2025 21:34:00] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-password']['error-message']
+[DEBUG] - [12-08-2025 21:34:00] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-username']['username']
+[DEBUG] - [12-08-2025 21:34:00] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-username']['password']
+[DEBUG] - [12-08-2025 21:34:00] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-username']['error-message']
+[DEBUG] - [12-08-2025 21:34:00] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-password']['username']
+[DEBUG] - [12-08-2025 21:34:00] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-password']['password']
+[DEBUG] - [12-08-2025 21:34:01] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-password']['error-message']

@@ -1,0 +1,4 @@
+[DEBUG] - [12-08-2025 19:02:37] [main] [org.testng.TestNG] - suiteXmlPath: "G:\ItI\java projects\SauceDemo\src\test\resources\TestSuites\EndToEndSuite.xml"
+[INFO] - [12-08-2025 19:02:38] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  G:\ItI\java projects\SauceDemo\src\test\resources\TestSuites\EndToEndSuite.xml
+

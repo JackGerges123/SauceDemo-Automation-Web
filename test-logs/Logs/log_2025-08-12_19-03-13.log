@@ -1,0 +1,15 @@
+[DEBUG] - [12-08-2025 19:03:13] [main] [org.testng.TestNG] - suiteXmlPath: "G:\ItI\java projects\SauceDemo\src\test\resources\TestSuites\EndToEndSuite.xml"
+[INFO] - [12-08-2025 19:03:14] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  G:\ItI\java projects\SauceDemo\src\test\resources\TestSuites\EndToEndSuite.xml
+
+[DEBUG] - [12-08-2025 19:03:17] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-username']['username']
+[DEBUG] - [12-08-2025 19:03:17] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-username']['password']
+[DEBUG] - [12-08-2025 19:03:17] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-username']['error-message']
+[DEBUG] - [12-08-2025 19:03:17] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-password']['username']
+[DEBUG] - [12-08-2025 19:03:17] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-password']['password']
+[DEBUG] - [12-08-2025 19:03:17] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-password']['error-message']
+[DEBUG] - [12-08-2025 19:03:17] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-username']['username']
+[DEBUG] - [12-08-2025 19:03:17] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-username']['password']
+[DEBUG] - [12-08-2025 19:03:17] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-username']['error-message']
+[ERROR] - [12-08-2025 19:03:18] [main] [automation.Tests.endToEnd.E2ETests] - ❌ Test FAILED: negativeEndToEndScenario_1
+[ERROR] - [12-08-2025 19:03:18] [main] [automation.Tests.endToEnd.E2ETests] - Reason: Test failed for key: invalid-login-empty-username expected [Epic sadface: Username is required] but found [Epic sadface: Username and password do not match any user in this service]

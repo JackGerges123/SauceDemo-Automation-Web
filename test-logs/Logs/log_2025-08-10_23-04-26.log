@@ -1,0 +1,22 @@
+[DEBUG] - [10-08-2025 23:04:26] [main] [org.testng.TestNG] - suiteXmlPath: "G:\ItI\java projects\SauceDemo\src\test\resources\TestSuites\FullRegressionSuite.xml"
+[INFO] - [10-08-2025 23:04:27] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  G:\ItI\java projects\SauceDemo\src\test\resources\TestSuites\FullRegressionSuite.xml
+
+[DEBUG] - [10-08-2025 23:04:30] [TestNG-tests-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [10-08-2025 23:04:30] [TestNG-tests-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[DEBUG] - [10-08-2025 23:04:30] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-password']['username']
+[DEBUG] - [10-08-2025 23:04:30] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-password']['password']
+[DEBUG] - [10-08-2025 23:04:30] [TestNG-tests-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-username']['username']
+[DEBUG] - [10-08-2025 23:04:30] [TestNG-tests-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-username']['password']
+[DEBUG] - [10-08-2025 23:04:31] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-password']['error-message']
+[DEBUG] - [10-08-2025 23:04:31] [TestNG-tests-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-username']['error-message']
+[DEBUG] - [10-08-2025 23:04:33] [TestNG-tests-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-username']['username']
+[DEBUG] - [10-08-2025 23:04:33] [TestNG-tests-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-username']['password']
+[DEBUG] - [10-08-2025 23:04:33] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-password']['username']
+[DEBUG] - [10-08-2025 23:04:33] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-password']['password']
+[DEBUG] - [10-08-2025 23:04:33] [TestNG-tests-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-username']['error-message']
+[DEBUG] - [10-08-2025 23:04:33] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-password']['error-message']
+[INFO] - [10-08-2025 23:04:40] [TestNG-tests-3] [automation.Tests.Cart.CartTests] - Driver created on : chrome
+[INFO] - [10-08-2025 23:04:41] [TestNG-tests-2] [automation.Tests.Cart.CartTests] - Driver created on : chrome
+[INFO] - [10-08-2025 23:04:43] [TestNG-tests-1] [automation.Tests.Cart.CartTests] - Driver created on : chrome
+[INFO] - [10-08-2025 23:04:52] [TestNG-tests-2] [automation.Tests.Cart.CartTests] - Driver created on : chrome

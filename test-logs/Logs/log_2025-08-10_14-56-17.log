@@ -1,0 +1,4 @@
+[DEBUG] - [10-08-2025 14:56:17] [main] [org.testng.TestNG] - suiteXmlPath: "G:\ItI\java projects\SauceDemo\src\test\resources\TestSuites\test.xml"
+[INFO] - [10-08-2025 14:56:18] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  G:\ItI\java projects\SauceDemo\src\test\resources\TestSuites\test.xml
+

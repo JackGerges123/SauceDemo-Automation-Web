@@ -1,0 +1,57 @@
+{
+  "valid-Login-credentials": {
+    "username" : "standard_user",
+    "password" : "secret_sauce"
+  },
+
+  "invalid-login-username": {
+    "username" : "wrongusername",
+    "password" : "secret_sauce",
+    "error-message" : "Epic sadface: Username and password do not match any user in this service"
+  },
+
+  "invalid-login-password": {
+    "username" : "standard_user",
+    "password" : "wrongpassword",
+    "error-message" : "Epic sadface: Username and password do not match any user in this service"
+  },
+
+  "invalid-login-empty-username": {
+    "username" : "",
+    "password" : "secret_sauce",
+    "error-message" : "Epic sadface: Username is required"
+  },
+
+  "invalid-login-empty-password": {
+    "username" : "standard_user",
+    "password" : "",
+    "error-message" : "Epic sadface: Password is required"
+  },
+
+  "valid-checkout-information": {
+    "first-name" : "jack",
+    "last-name" : "gerges",
+    "zip-code" : "12345"
+  },
+
+  "invalid-checkout-information-empty-firstname": {
+    "first-name" : "",
+    "last-name" : "gerges",
+    "zip-code" : "12345",
+    "error-message" : "Error: First Name is required"
+  },
+
+  "invalid-checkout-information-empty-lastname": {
+    "first-name" : "jack",
+    "last-name" : "",
+    "zip-code" : "12345",
+    "error-message" : "Error: Last Name is required"
+  },
+
+  "invalid-checkout-information-empty-zipcode": {
+    "first-name" : "jack",
+    "last-name" : "gerges",
+    "zip-code" : "",
+    "error-message" : "Error: Postal Code is required"
+  }
+}

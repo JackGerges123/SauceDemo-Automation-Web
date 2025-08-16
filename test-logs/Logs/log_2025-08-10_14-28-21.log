@@ -1,0 +1,6 @@
+[DEBUG] - [10-08-2025 14:28:21] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\compu market\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [10-08-2025 14:28:22] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\compu market\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[DEBUG] - [10-08-2025 14:28:27] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [10-08-2025 14:28:27] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']

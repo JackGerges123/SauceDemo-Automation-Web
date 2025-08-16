@@ -1,0 +1,10 @@
+[DEBUG] - [12-08-2025 16:23:13] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\compu market\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [12-08-2025 16:23:13] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\compu market\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[DEBUG] - [12-08-2025 16:23:17] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [12-08-2025 16:23:17] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[DEBUG] - [12-08-2025 16:23:17] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-checkout-information']['first-name']
+[DEBUG] - [12-08-2025 16:23:17] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-checkout-information']['last-name']
+[DEBUG] - [12-08-2025 16:23:17] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-checkout-information']['zipcode']
+[ERROR] - [12-08-2025 16:23:18] [main] [utils.JsonUtils] - No results for path: $['valid-checkout-information']['zipcode'] No results for json path: 'valid-checkout-information.zipcode' in the json file: test-data

@@ -1,0 +1,37 @@
+[DEBUG] - [14-08-2025 05:16:49] [main] [org.testng.TestNG] - suiteXmlPath: "G:\ItI\java projects\SauceDemo\src\test\resources\TestSuites\AllTestsSuite.xml"
+[INFO] - [14-08-2025 05:16:50] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  G:\ItI\java projects\SauceDemo\src\test\resources\TestSuites\AllTestsSuite.xml
+
+[DEBUG] - [14-08-2025 05:16:53] [TestNG-tests-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [14-08-2025 05:16:53] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-password']['username']
+[DEBUG] - [14-08-2025 05:16:53] [TestNG-tests-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-username']['username']
+[DEBUG] - [14-08-2025 05:16:53] [TestNG-tests-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[DEBUG] - [14-08-2025 05:16:53] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-password']['password']
+[DEBUG] - [14-08-2025 05:16:53] [TestNG-tests-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-username']['password']
+[DEBUG] - [14-08-2025 05:16:53] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-password']['error-message']
+[DEBUG] - [14-08-2025 05:16:53] [TestNG-tests-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-username']['error-message']
+[DEBUG] - [14-08-2025 05:16:55] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-password']['username']
+[DEBUG] - [14-08-2025 05:16:55] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-password']['password']
+[DEBUG] - [14-08-2025 05:16:55] [TestNG-tests-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-username']['username']
+[DEBUG] - [14-08-2025 05:16:55] [TestNG-tests-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-username']['password']
+[DEBUG] - [14-08-2025 05:16:56] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-password']['error-message']
+[DEBUG] - [14-08-2025 05:16:56] [TestNG-tests-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-username']['error-message']
+[INFO] - [14-08-2025 05:17:02] [TestNG-tests-2] [automation.Tests.Cart.CartTests] - Driver created on : chrome
+[INFO] - [14-08-2025 05:17:03] [TestNG-tests-1] [automation.Tests.Cart.CartTests] - Driver created on : chrome
+[INFO] - [14-08-2025 05:17:04] [TestNG-tests-3] [automation.Tests.Cart.CartTests] - Driver created on : chrome
+[DEBUG] - [14-08-2025 05:17:06] [TestNG-tests-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-checkout-information']['first-name']
+[DEBUG] - [14-08-2025 05:17:06] [TestNG-tests-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-checkout-information']['last-name']
+[DEBUG] - [14-08-2025 05:17:06] [TestNG-tests-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-checkout-information']['zip-code']
+[DEBUG] - [14-08-2025 05:17:07] [TestNG-tests-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-checkout-information-empty-firstname']['first-name']
+[DEBUG] - [14-08-2025 05:17:07] [TestNG-tests-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-checkout-information-empty-firstname']['last-name']
+[DEBUG] - [14-08-2025 05:17:07] [TestNG-tests-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-checkout-information-empty-firstname']['zip-code']
+[DEBUG] - [14-08-2025 05:17:07] [TestNG-tests-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-checkout-information-empty-firstname']['error-message']
+[DEBUG] - [14-08-2025 05:17:08] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-checkout-information-empty-lastname']['first-name']
+[DEBUG] - [14-08-2025 05:17:08] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-checkout-information-empty-lastname']['last-name']
+[DEBUG] - [14-08-2025 05:17:08] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-checkout-information-empty-lastname']['zip-code']
+[DEBUG] - [14-08-2025 05:17:09] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-checkout-information-empty-lastname']['error-message']
+[DEBUG] - [14-08-2025 05:17:09] [TestNG-tests-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-checkout-information-empty-zipcode']['first-name']
+[DEBUG] - [14-08-2025 05:17:09] [TestNG-tests-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-checkout-information-empty-zipcode']['last-name']
+[DEBUG] - [14-08-2025 05:17:09] [TestNG-tests-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-checkout-information-empty-zipcode']['zip-code']
+[DEBUG] - [14-08-2025 05:17:10] [TestNG-tests-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-checkout-information-empty-zipcode']['error-message']
+[INFO] - [14-08-2025 05:17:14] [TestNG-tests-2] [automation.Tests.Cart.CartTests] - Driver created on : chrome

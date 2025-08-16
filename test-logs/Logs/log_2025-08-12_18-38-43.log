@@ -1,0 +1,8 @@
+[DEBUG] - [12-08-2025 18:38:43] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\compu market\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [12-08-2025 18:38:43] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\compu market\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[DEBUG] - [12-08-2025 18:38:46] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [12-08-2025 18:38:46] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[ERROR] - [12-08-2025 18:38:50] [main] [automation.Tests.endToEnd.E2ETests] - ❌ Test FAILED: entToEndScenario_5
+[ERROR] - [12-08-2025 18:38:50] [main] [automation.Tests.endToEnd.E2ETests] - Reason: Remove button is still displayed expected [false] but found [true]

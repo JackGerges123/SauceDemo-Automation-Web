@@ -1,0 +1,7 @@
+[DEBUG] - [10-08-2025 15:16:09] [main] [org.testng.TestNG] - suiteXmlPath: "G:\ItI\java projects\SauceDemo\src\test\resources\TestSuites\test.xml"
+[INFO] - [10-08-2025 15:16:10] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  G:\ItI\java projects\SauceDemo\src\test\resources\TestSuites\test.xml
+
+[DEBUG] - [10-08-2025 15:16:14] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-username']['username']
+[DEBUG] - [10-08-2025 15:16:14] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-username']['password']
+[DEBUG] - [10-08-2025 15:16:14] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-username']['error-message']

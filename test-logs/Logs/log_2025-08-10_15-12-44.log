@@ -1,0 +1,8 @@
+[DEBUG] - [10-08-2025 15:12:44] [main] [org.testng.TestNG] - suiteXmlPath: "G:\ItI\java projects\SauceDemo\src\test\resources\TestSuites\test.xml"
+[INFO] - [10-08-2025 15:12:45] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  G:\ItI\java projects\SauceDemo\src\test\resources\TestSuites\test.xml
+
+[DEBUG] - [10-08-2025 15:12:49] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-username']['username']
+[DEBUG] - [10-08-2025 15:12:49] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-username']['password']
+[DEBUG] - [10-08-2025 15:12:49] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-usernameerror-message']
+[ERROR] - [10-08-2025 15:12:49] [main] [utils.JsonUtils] - No results for path: $['invalid-login-usernameerror-message'] No results for json path: 'invalid-login-usernameerror-message' in the json file: test-data

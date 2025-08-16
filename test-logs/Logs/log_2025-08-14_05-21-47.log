@@ -1,0 +1,37 @@
+[DEBUG] - [14-08-2025 05:21:47] [main] [org.testng.TestNG] - suiteXmlPath: "G:\ItI\java projects\SauceDemo\src\test\resources\TestSuites\EndToEndSuite.xml"
+[INFO] - [14-08-2025 05:21:48] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  G:\ItI\java projects\SauceDemo\src\test\resources\TestSuites\EndToEndSuite.xml
+
+[DEBUG] - [14-08-2025 05:21:51] [TestNG-tests-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [14-08-2025 05:21:51] [TestNG-tests-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [14-08-2025 05:21:51] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [14-08-2025 05:21:51] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[DEBUG] - [14-08-2025 05:21:51] [TestNG-tests-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[DEBUG] - [14-08-2025 05:21:51] [TestNG-tests-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[DEBUG] - [14-08-2025 05:21:51] [TestNG-tests-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-checkout-information']['first-name']
+[DEBUG] - [14-08-2025 05:21:51] [TestNG-tests-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-checkout-information']['last-name']
+[DEBUG] - [14-08-2025 05:21:51] [TestNG-tests-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-checkout-information']['zip-code']
+[DEBUG] - [14-08-2025 05:21:52] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [14-08-2025 05:21:52] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[DEBUG] - [14-08-2025 05:21:54] [TestNG-tests-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [14-08-2025 05:21:54] [TestNG-tests-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[DEBUG] - [14-08-2025 05:21:54] [TestNG-tests-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [14-08-2025 05:21:54] [TestNG-tests-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[DEBUG] - [14-08-2025 05:21:54] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-username']['username']
+[DEBUG] - [14-08-2025 05:21:54] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-username']['password']
+[DEBUG] - [14-08-2025 05:21:55] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-username']['error-message']
+[DEBUG] - [14-08-2025 05:21:55] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-password']['username']
+[DEBUG] - [14-08-2025 05:21:55] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-password']['password']
+[DEBUG] - [14-08-2025 05:21:55] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-password']['error-message']
+[DEBUG] - [14-08-2025 05:21:55] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-username']['username']
+[DEBUG] - [14-08-2025 05:21:55] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-username']['password']
+[DEBUG] - [14-08-2025 05:21:55] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-username']['error-message']
+[DEBUG] - [14-08-2025 05:21:55] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-password']['username']
+[DEBUG] - [14-08-2025 05:21:55] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-password']['password']
+[DEBUG] - [14-08-2025 05:21:55] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalid-login-empty-password']['error-message']
+[DEBUG] - [14-08-2025 05:21:57] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['username']
+[DEBUG] - [14-08-2025 05:21:57] [TestNG-tests-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid-Login-credentials']['password']
+[ERROR] - [14-08-2025 05:21:57] [TestNG-tests-1] [automation.Tests.endToEnd.E2ETests] - Test FAILED: postiveEndToEndScenario_5
+[ERROR] - [14-08-2025 05:21:57] [TestNG-tests-1] [automation.Tests.endToEnd.E2ETests] - Reason: Remove button is still displayed after click on reset app state button expected [false] but found [true]
+[ERROR] - [14-08-2025 05:21:58] [TestNG-tests-3] [automation.Tests.endToEnd.E2ETests] - Test FAILED: negativeEndToEndScenario_2
+[ERROR] - [14-08-2025 05:21:58] [TestNG-tests-3] [automation.Tests.endToEnd.E2ETests] - Reason: Cart empty cannot navigate to checkout page expected [https://www.saucedemo.com/cart.html] but found [https://www.saucedemo.com/checkout-step-one.html]

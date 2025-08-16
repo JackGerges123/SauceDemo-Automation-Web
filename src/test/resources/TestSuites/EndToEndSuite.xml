@@ -1,0 +1,83 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="EndToEnd Suite" parallel="tests" thread-count="3">
+
+    <test name="Postive EndTOEnd Scenario Test_1">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="automation.Tests.endToEnd.E2ETests">
+                <methods>
+                    <include name="postiveEndToEndScenario_1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Postive EndTOEnd Scenario Test_2">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="automation.Tests.endToEnd.E2ETests">
+                <methods>
+                    <include name="postiveEndToEndScenario_2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Postive EndTOEnd Scenario Test_3">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="automation.Tests.endToEnd.E2ETests">
+                <methods>
+                    <include name="postiveEndToEndScenario_3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Postive EndTOEnd Scenario Test_4">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="automation.Tests.endToEnd.E2ETests">
+                <methods>
+                    <include name="postiveEndToEndScenario_4"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Postive EndTOEnd Scenario Test_5">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="automation.Tests.endToEnd.E2ETests">
+                <methods>
+                    <include name="postiveEndToEndScenario_5"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="Negative EndTOEnd Scenario Test_1">
+        <parameter name="browser" value="firefox"></parameter>
+        <parameter name="testKeys" value="invalid-login-username,invalid-login-password,invalid-login-empty-username,invalid-login-empty-password"/>
+        <classes>
+            <class name="automation.Tests.endToEnd.E2ETests">
+                <methods>
+                    <include name="negativeEndToEndScenario_1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Negative EndTOEnd Scenario Test_2">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="automation.Tests.endToEnd.E2ETests">
+                <methods>
+                    <include name="negativeEndToEndScenario_2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

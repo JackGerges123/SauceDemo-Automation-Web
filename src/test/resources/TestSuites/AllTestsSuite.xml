@@ -1,0 +1,319 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Full Regression Suite" parallel="tests" thread-count="3">
+
+    <test name="Valid Login Test">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="automation.Tests.login.LoginTests">
+                <methods>
+                    <include name="PostiveLoginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Login With Invalid Username Test">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="testKey" value="invalid-login-username"/>
+        <classes>
+            <class name="automation.Tests.login.LoginTests">
+                <methods>
+                    <include name="NegativeLoginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Login With Invalid Password Test">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="testKey" value="invalid-login-password"/>
+         <classes>
+            <class name="automation.Tests.login.LoginTests">
+                <methods>
+                    <include name="NegativeLoginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Login With Empty Username Test">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="testKey" value="invalid-login-empty-username"/>
+        <classes>
+            <class name="automation.Tests.login.LoginTests">
+                <methods>
+                    <include name="NegativeLoginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Login With Empty Password Test">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="testKey" value="invalid-login-empty-password"/>
+        <classes>
+            <class name="automation.Tests.login.LoginTests">
+                <methods>
+                    <include name="NegativeLoginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Add products to cart">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="automation.Tests.inventory.InventoryTests">
+                <methods>
+                    <include name="AddProductsToCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Click on Image of Product">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="automation.Tests.inventory.InventoryTests">
+                <methods>
+                    <include name="ClickOnImageOfProducts"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Click on Name of Products">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="automation.Tests.inventory.InventoryTests">
+                <methods>
+                    <include name="ClickOnNameOfProducts"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Sort Products Prices">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="automation.Tests.inventory.InventoryTests">
+                <methods>
+                    <include name="SortPricesFromLowToHigh"/>
+                    <include name="SortPricesFromHighToLow"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Sort Products Names">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="automation.Tests.inventory.InventoryTests">
+                <methods>
+                    <include name="SortProductsNameFromZ_A"/>
+                    <include name="SortProductsNameFromA_Z"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+
+    <test name="Navigate To Cart Page">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="automation.Tests.inventory.InventoryTests">
+                <methods>
+                    <include name="ValidClickOnCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Navigate To Checkout Page">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="automation.Tests.Cart.CartTests">
+                <methods>
+                    <include name="ValidClickOnCheckOut"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Navigate Back To Inventory Page from Cart Page">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="automation.Tests.Cart.CartTests">
+                <methods>
+                    <include name="ValidClickOnContinueShopping"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Remove Products From Cart Page">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="automation.Tests.Cart.CartTests">
+                <methods>
+                    <include name="RemoveItemsFromCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Continue Shopping After Checkout With Valid (firstname , lastname , zipcode)">
+        <classes>
+            <class name="automation.Tests.checkout.CheckoutTests">
+                <methods>
+                    <include name="PostiveContinueCheckoutTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Continue Shopping After Checkout Empty (firstname) , Valid (lastname , zipcode)">
+        <parameter name="testkey" value="invalid-checkout-information-empty-firstname"></parameter>
+        <classes>
+            <class name="automation.Tests.checkout.CheckoutTests">
+                <methods>
+                    <include name="InvalidContinueCheckoutTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Continue Shopping After Checkout Empty (lastname) , Valid (firstname , zipcode)">
+        <parameter name="testkey" value="invalid-checkout-information-empty-lastname"></parameter>
+        <classes>
+            <class name="automation.Tests.checkout.CheckoutTests">
+                <methods>
+                    <include name="InvalidContinueCheckoutTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Continue Shopping After Checkout Empty (zipcode) , Valid (firstname , lastname)">
+        <parameter name="testkey" value="invalid-checkout-information-empty-zipcode"></parameter>
+        <classes>
+            <class name="automation.Tests.checkout.CheckoutTests">
+                <methods>
+                    <include name="InvalidContinueCheckoutTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Navigate From Checkout Page to Cart Page Clicking On Cancel Button ">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="automation.Tests.checkout.CheckoutTests">
+                <methods>
+                    <include name="ClickOnCancelButtonTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Compare Between Sum Of Products Price And Item Total Price">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="automation.Tests.checkoutOverview.CheckoutOverviewTests">
+                <methods>
+                    <include name="ItemTotalPriceSummationTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Compare Between (Items Total Price + Tax) And Total Price">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="automation.Tests.checkoutOverview.CheckoutOverviewTests">
+                <methods>
+                    <include name="SummationBetweenItemTotalAndTaxTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Navigate From CheckoutOverview to CheckoutComplete When Click Finish">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="automation.Tests.checkoutOverview.CheckoutOverviewTests">
+                <methods>
+                    <include name="ClickOnFinishButtonTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Navigate From CheckoutOverview to Inventory When Click Cancel">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="automation.Tests.checkoutOverview.CheckoutOverviewTests">
+                <methods>
+                    <include name="ClickOnCancelButtonTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Navigate Back to Inventory When Click BackHome From CheckoutComplete">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="automation.Tests.checkoutComlete.CheckoutCompleteTests">
+                <methods>
+                    <include name="ClickOnBackHomeButtonTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Click on Menu Button Then All Items">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="automation.Tests.Cart.CartTests">
+                <methods>
+                    <include name="AllItemsButtonTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Click On Menu Then About Button Navigate To About Page">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="automation.Tests.inventory.InventoryTests">
+                <methods>
+                    <include name="AboutButtonTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Click On Logout Button Then Re-login And Same Account Data Exist">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="automation.Tests.inventory.InventoryTests">
+                <methods>
+                    <include name="LogOutButtonTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Click on Reset Button">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="automation.Tests.inventory.InventoryTests">
+                <methods>
+                    <include name="ResetButtonTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
